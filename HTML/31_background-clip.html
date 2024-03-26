@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>bg-clip</title>
+  <style>
+    *{
+      margin: 10px;
+      padding: 10px;
+    }
+    #clip-border{
+      background-clip: border-box;
+      background-color: bisque;
+      border: dotted 5px black;
+      width: 350px;
+    }
+    #clip-padding{
+      background-clip: padding-box;
+      background-color: bisque;
+      border: dotted 5px black;
+      width: 350px;
+    }
+    #clip-content{
+      background-clip: content-box;
+      background-color: bisque;
+      border: dotted 5px black;
+      width: 350px;
+    }
+    body{
+      background-image: url("image/From혜은.png");
+      background-repeat: repeat-y;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="desc" id="clip-border">
+      <h1>레드향</h1>
+      <p>레드향은 진짜 맛있고 대충 그냥 레드향 홍보하는 긴 글이라고 생각.</p>
+    </div>
+    <div class="desc" id="clip-padding">
+      <h1>레드향</h1>
+      <p>레드향은 진짜 맛있고 대충 그냥 레드향 홍보하는 긴 글이라고 생각.</p>
+    </div>
+    <div class="desc" id="clip-content">
+      <h1>레드향</h1>
+      <p>레드향은 진짜 맛있고 대충 그냥 레드향 홍보하는 긴 글이라고 생각.</p>
+    </div>
+  </div>
+</body>
+</html>

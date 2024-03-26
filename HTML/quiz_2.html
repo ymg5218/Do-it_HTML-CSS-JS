@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz_2</title>
+  <link rel="stylesheet" href="css/form2.css">
+</head>
+<body>
+  <div id="container">
+      <h1>프론트엔드 개발자 지원서</h1>
+      <p>HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다.</p>
+      <hr>
+      <form>
+        <p><b>개인 정보</b></p>
+        <ul>
+          <li>
+            <label for="user_name">이름</label><br>
+            <input type="text" id="user_name" placeholder="공백 없이 입력하세요." required>
+          </li>
+          <li>
+            <label for="user_tel">전화번호</label><br>
+            <input type="tel" id="user_tel" required>
+          </li>
+        </ul>
+        <br>
+        <p><b>지원 분야</b></p>
+        <ul>
+          <li>
+            <label for="web_pub"><input type="radio" name="motive" id="web_pub">웹 퍼블리싱</label>
+          </li>
+          <li>
+            <label for="web_prod"><input type="radio" name="motive" id="web_prod">웹 애플리케이션 개발</label>
+          </li>
+          <li>
+            <label for="impro_dev"><input type="radio" name="motive" id="impro_dev">개발 환경 개선</label>
+          </li>
+        </ul>
+        <br>
+        <p><b>지원 동기</b></p>
+        <br>
+        <label for="motive_cause">
+          <textarea id="motive_cause" rows="5" cols="60"></textarea>
+        </label>
+        <button type="submit" id="submit">접수하기</button>
+        <button type="reset">다시 쓰기</button>
+      </form>
+      
+  </div>
+</body>
+</html>

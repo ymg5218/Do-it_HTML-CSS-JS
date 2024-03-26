@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkbox</title>
+</head>
+<body>
+  <legend>상품 선택</legend>
+  <p><b>주문할 상품을 선택해 주세요.</b></p>
+  <!-- <label>
+    <input type="checkbox" value="prod_1">선물용 3KG (최대 10개)
+    <input type="range" min="0" max="10" value="1">
+  </label>
+  <label>
+    <input type="checkbox" value="prod_2">선물용 5KG (최대 3개)
+    <input type="range" min="0" max="3" value="1">
+  </label>
+  <label>
+    <input type="checkbox" value="prod_3">가정용 3KG
+  </label>
+  <label>
+    <input type="checkbox" value="prod_4">가정용 5KG
+  </label> -->
+  <label for="prod_select">상품 선택</label>
+  <select id="prod_1">
+    <option value="special_3">선물용 3KG</option>
+    <option value="special_5">선물용 5KG</option>
+    <option value="home_3">가정용 3KG</option>
+    <option value="home_5">가정용 5KG</option>
+  </select>
+  <p><b>포장 선택</b></p>
+  <!-- <label>
+    <input type="radio" name="gift" value="yes">선물 포장
+  </label>
+  <label>
+    <input type="radio" name="gift" value="no">선물 포장 안 함
+  </label> -->
+  <label for="prod_11">포장 여부</label>
+  <input type="text" id="prod_11" list="pack">
+  <datalist id="pack">
+    <option value="package">선물 포장</option>
+    <option value="unpackage">선물 포장 안 함</option>
+  </datalist>
+  <hr>
+  <button type="submit">주문하기</button>
+  <button type="reset">취소하기</button>
+</body>
+</html>

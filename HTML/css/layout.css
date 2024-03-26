@@ -1,0 +1,27 @@
+#header{
+  width: 100%;
+  height: 120px;
+  background-color: #acacac;
+}
+#container{
+  width: 100%;
+  height: 600px;
+}
+#sidebar{
+  width: 25%;
+  height: 100%;
+  background-color: #e9e9e9;
+  float: left;
+}
+#contents{
+  width: 75%;
+  height: 100%;
+  background-color: #f7f7f7;
+  float: left;
+}
+#footer{
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+  clear: left;
+}

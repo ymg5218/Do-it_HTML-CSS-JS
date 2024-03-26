@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+h1{
+  color: hsl(0, 72%, 55%);
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Nanum Pen Script', cursive;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+p{
+  font-size: 24px;
+  line-height: 150%;
+}
+.accent{
+  color:hsl(0, 100%, 50%, 0.5);
+  font-weight: bold;
+}
+.bg{
+  background-color: #ddd;
+}
+
+#container{
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+#container2{
+  background-color: #222;
+}
+
+body{
+  font-size: 20px;
+}
+
+.italic{
+  font-style: italic;
+}
+
+#test{
+  text-align: justify;
+}
+
+.book1{
+  list-style-type: none;
+}
+
+.book2{
+  list-style-type: upper-alpha;
+}
+
+.book3{
+  list-style-type: decimal-leading-zero;
+}
+
+.book4{
+  /* list-style-position: inside;
+  list-style-image: url('../images/dot.png'); */
+  list-style: outside url('../images/dot.png');
+}
+
+table{
+  caption-side: bottom;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td, th{
+  border: 1px dotted black;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
