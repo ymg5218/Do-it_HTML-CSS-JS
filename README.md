@@ -1,1 +1,1 @@
-![html+css+js](https://github.com/ymg5218/Do-it_HTML-CSS-JS/assets/87100737/b0ff23db-79e1-4456-b749-85fc2be26937)
+<img src="https://github.com/ymg5218/Do-it_HTML-CSS-JS/issues/1#issue-2216302566" width=300 height=500>
